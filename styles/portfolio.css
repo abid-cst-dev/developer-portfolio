@@ -3,21 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
+    /* HEADING */
+
+/* NAVIGATION BAR */
+
 .logo h2{
     font-size: 45px;;
     font-weight: 900;
 }
-
 .color-orange{
     color: #fd6e0a;
 }
-
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
@@ -34,7 +35,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
 nav .menu{
     display: flex;
     gap: 51px;
@@ -42,86 +42,134 @@ nav .menu{
     text-decoration: none;
     align-items: center;
 }
-
 nav .menu a{
     font-size: 20px;
     text-decoration: none;
     color: #474747;
 }
 
+/* BUTTON */
+
 .btn{
     background-color: #fd6e0a;
     border: none;
     border-radius: 5px;
-    padding: 18.28px 35px 19.3px 35px;
+    padding: 18px 35px ;
     font-size: 20px;
     font-weight: bold;
     color: white;
     cursor: pointer;
 }
 
-.banner{
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    margin: 46px 38px 0 230px;
-    justify-content: space-between;
+/* SECTION HEADING */
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading P{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
 }
 
+/* HERO BANNER */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 47px 38px 0 230px;
+    justify-content: space-between;
+}
 .banner-content{
     max-width: 585px;
 }
-
 .banner-content h2 {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
 }
-
 .banner-content h1{
     font-size: 85px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
 }
-
 .banner-content p{
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
 }
-
 .banner-image img{
     max-width: 584px;
     vertical-align: middle;
 }
 
+/* about mary hardy */
+
 #about{
-    margin: 130px 230px 0 230px;
+    padding-top: 130px; 
+}
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
     text-align: center;
     background-color: #FFF8F3;
-    max-width: 1140px;
-    border-radius: 10px;
-}
-
-.about-container{
-    padding: 137px 157px;
-}
-
-.section-heading h1{
-    margin-bottom: 30px;
-}
-.section-heading p{
-    max-width: 827px;
-    color: #757575;
-    line-height: 30px;
-    font-size: 18px;
-    margin-bottom: 30px;
+    padding: 131px 156px;
 }
 .about-info{
     display: flex;
     justify-content: space-around;
-    line-height: 1.6;
+}
+.info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575 ;
+}
+.info-card h4{
+    font-size: 20px;
 }
 
+/* skill related styles */
+
+#skills{
+    padding-top: 130px;
+}
+.skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skill-box{
+    display: flex;
+    gap: 24px;
+}
+.skill-card{
+    padding: 30px;
+    max-width: 267px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #00000021;
+    /* border: 1px solid red; */
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h3{
+    font-size: 20px;
+    color:#181818;
+    margin-bottom: 20px;
+}
+.skill-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
